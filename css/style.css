@@ -194,6 +194,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
+@media(max-width: 1000px){
+	#header h1{
+		font-size: 7em;
+	}
+
+}
+
+@media(max-width: 670px){
+	#header h1{
+		font-size: 4em;
+	}
+
+}
+
 .intro span {
 	color: #a7c44c;
 	font-weight: 600;
